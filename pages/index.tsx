@@ -3,23 +3,21 @@ import { Text, Page } from '@vercel/examples-ui';
 import { Chat } from '../components/Chat';
 import NavBar from '../components/NavBar';
 import Description from '../components/Description';
-import ConectDama from "../components/ConectDama";
-import image from "/workspace/ai-chatbot-website/public/DAMA.png"
+import ConectDama from '../components/ConectDama';
+import image from "/workspace/ai-chatbot-crypto/public/background.jpg"
 
 
 
 function Home() {
   return (
-    
-  <Page style={{ backgroundColor: '#f0f3ff' }}>
-    
+  <Page >
     <Page className=" flex flex-col gap-12">
       <search>
         <Description/>
       </search>
       <section className="flex flex-col gap-6">
-        <Text variant="h1" className="text-center text-3xl font-bold text-teal-900">Empowering Your Growth - Journey of Self-Evaluation</Text>
-        <Text className="text-center text-xl sm:px-6 lg:px-8 text-zinc-600 mt-3">
+        <Text variant="h1" className="text-center text-white text-3xl font-bold text-teal-900">Empowering Your Growth - Journey of Self-Evaluation</Text>
+        <Text className="text-center text-xl text-white sm:px-6 lg:px-8  mt-3">
           Welcome to the Self-Evaluation Service, where we empower you to assess your performance and possibly earn special recognition from your company. Kindly express in the chat below why you feel deserving of special recognition. Please be aware that all transactions will require authorization from your direct manager.
         </Text>
       </section>
@@ -44,7 +42,7 @@ function Home() {
       <div className="flex justify-center ">
         <div className="w-full rounded-lg shadow-m">
         <ConectDama  />
-        </div>
+          </div>
       </div>
     </section>
         </Page>
