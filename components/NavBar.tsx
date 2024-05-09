@@ -126,7 +126,7 @@ export const NavBar = () => {
 
   return (
     <nav className="flex items-center justify-between max-w-screen-2xl mx-full px-10 py-9 rounded-xl">
-        <span className="hidden text-2xl font-bold px-10 text-gray-900 sm:block mb-20">
+        <span className="hidden text-2xl font-bold px-10 text-gray-700 sm:block mb-20">
         Connect to Your Wellet
         </span>
       <div className="flex gap-4">

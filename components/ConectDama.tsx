@@ -40,7 +40,7 @@ const ConectDama = () => {
       <div className="grid grid-cols-1 gap-1 md:grid-cols-1">
       <div>
       <form className="m-6" onSubmit={handleSubmit}>
-        <div className="credit-card w-full lg:w-full sm:w-auto shadow-lg mx-auto rounded-xl bg-white">
+        <div className="credit-card w-full lg:w-full sm:w-auto shadow-lg mx-auto px-4 py-2 rounded-xl bg-white">
            <main className="mt-3 p-4">
             <h1 className="text-2xl font-semibold text-gray-700 text-center">
             Read from smart contract

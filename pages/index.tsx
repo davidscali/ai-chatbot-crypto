@@ -4,13 +4,17 @@ import { Chat } from '../components/Chat';
 import NavBar from '../components/NavBar';
 import Description from '../components/Description';
 import ConectDama from '../components/ConectDama';
-import image from "/workspace/ai-chatbot-crypto/public/background.jpg"
+import image from "../public/DAMA.png";
 
 
 
 function Home() {
+
   return (
   <Page >
+     <div className="flex justify-center mt-5">
+           {/* <img src={require('../public/DAMA.png')} alt="Logo" className="h-16 w-16 rounded-lg" /> */}
+      </div>
     <Page className=" flex flex-col gap-12">
       <search>
         <Description/>
@@ -30,7 +34,7 @@ function Home() {
         </div>
       </section>
       
-      <section className="flex flex-col px-6 gap-12">
+      <section className="flex flex-col px-14 gap-12">
         <div className="flex justify-center">
           <div className="bg-white rounded-lg shadow-lg p-6  mt-5">
           <NavBar />

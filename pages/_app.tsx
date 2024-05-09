@@ -7,6 +7,7 @@ import '../pages/globlas.css';
 
 
 
+
 function App({ Component, pageProps }: AppProps) {
   const Layout = getLayout<LayoutProps>(Component)
 

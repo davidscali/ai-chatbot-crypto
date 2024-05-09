@@ -125,7 +125,7 @@ export function Chat() {
       {loading && <LoadingChatLine />}
 
       {messages.length < 2 && (
-        <span className="mx-auto flex flex-grow text-gray-800 text-lg clear-both">
+        <span className="mx-auto flex flex-grow text-gray-800 text-m clear-both">
           Type a message to start the conversation with Andy - your self evaluation bot
         </span>
       )}
